@@ -19,7 +19,7 @@ export default {
       {
         rel: 'stylesheet',
         href:
-          'https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons'
+          'https://fonts.googleapis.com/css?family=Roboto&font-display=swap:300,400,500,700|Material+Icons'
       },
       { rel: 'preload', as: 'script', href: 'https://cdn.ampproject.org/v0.js' }
     ]

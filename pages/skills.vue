@@ -1,72 +1,70 @@
 <template>
-  <v-layout
-    column
-    justify-center
-    align-center
-  >
-    <v-flex
-      xs12
-      sm8
-      md6
+  <span v-touch:swipe.left="swipeHandler_left" v-touch:swipe.right="swipeHandler_right">
+    <v-layout
+      column
+      justify-center
+      align-center
     >
-      <v-card>
-        <v-card-title class="headline">
-          書けるor書いたことある言語たち
-        </v-card-title>
-        <v-card-text>
-          <p>
+      <v-flex
+        xs12
+        sm8
+        md6
+      >
+        <v-card>
+          <v-card-title class="headline">
+            書けるor書いたことある言語たち
+          </v-card-title>
+          <v-card-text>
             JavaScript(Node.js/React/Vue/Nuxt)
-            <no-ssr><star-rating :rating="3.5" :read-only="true" :increment="0.01"></star-rating></no-ssr>
-          </p>
-        </v-card-text>
-        <v-card-text>
-          <p>
+            <v-slider
+              readonly
+              value="70"
+            />
             Golang
-            <no-ssr><star-rating :rating="3.5" :read-only="true" :increment="0.01"></star-rating></no-ssr>
-          </p>
-        </v-card-text>
-        <v-card-text>
-          <p>
+            <v-slider
+              readonly
+              value="75"
+            />
             Ruby
-            <no-ssr><star-rating :rating="3.0" :read-only="true" :increment="0.01"></star-rating></no-ssr>
-          </p>
-        </v-card-text>
-        <v-card-text>
-          <p>
+            <v-slider
+              readonly
+              value="70"
+            />
             Kotlin/Dart
-            <no-ssr><star-rating :rating="2.5" :read-only="true" :increment="0.01"></star-rating></no-ssr>
-          </p>
-        </v-card-text>
-        <v-card-text>
-          <p>
+            <v-slider
+              readonly
+              value="75"
+            />
             C
-            <no-ssr><star-rating :rating="2.0" :read-only="true" :increment="0.01"></star-rating></no-ssr>
-          </p>
-        </v-card-text>
-        <v-card-text>
-          <p>
+            <v-slider
+              readonly
+              value="40"
+            />
             Solidity
-            <no-ssr><star-rating :rating="3.0" :read-only="true" :increment="0.01"></star-rating></no-ssr>
-          </p>
-        </v-card-text>
-      </v-card>
-    </v-flex>
-  </v-layout>
+            <v-slider
+              readonly
+              value="50"
+            />
+          </v-card-text>
+        </v-card>
+      </v-flex>
+    </v-layout>
+  </span>
 </template>
 
 <script>
-import StarRating from 'vue-star-rating'
+import Vue from 'vue'
+import Vue2TouchEvents from 'vue2-touch-events'
+
+Vue.use(Vue2TouchEvents)
 
 export default {
-  components: {
-    StarRating
-  },
-  metaInfo: {
-    title: 'History',
-    titleTemplate: '%s - Yay!',
-    htmlAttrs: {
-      lang: 'en',
-      amp: true
+  methods: {
+    swipeHandler_left() {
+      location.href = '../history'
+    },
+    swipeHandler_right() {
+      location.href = '../inspire'
     }
   }
 }

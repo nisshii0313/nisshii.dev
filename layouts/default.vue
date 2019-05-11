@@ -1,23 +1,23 @@
 <template>
   <v-app dark>
     <v-toolbar
-      :clipped-left="clipped"
       fixed
       app
     >
-      <v-toolbar-title v-text="title" />
       <v-toolbar-items>
         <v-btn href="../">
-          Top
+          <p>Nisshii Portfolio</p>
         </v-btn>
+      </v-toolbar-items>
+      <v-toolbar-items class="hidden-xs-only">
         <v-btn href="../skills">
-          Skills
+          <p>Skills</p>
         </v-btn>
         <v-btn href="../history">
-          History
+          <p>History</p>
         </v-btn>
         <v-btn href="../inspire">
-          Inspires
+          <p>Inspires</p>
         </v-btn>
       </v-toolbar-items>
     </v-toolbar>
@@ -26,27 +26,30 @@
         <nuxt />
       </v-container>
     </v-content>
-    <v-footer
-      :fixed="fixed"
-      app
-    >
-      <span>&copy; 2019</span>
+    <v-footer class="hidden-sm-and-up" position="fixed" bottom="0">
+      <v-layout
+        justify-center
+        row
+        wrap
+      >
+        <v-btn flat href="../skills">
+          <span>Skills</span>
+        </v-btn>
+        <v-btn flat href="../history">
+          <span>History</span>
+        </v-btn>
+        <v-btn flat href="../inspire">
+          <span>Inspires</span>
+        </v-btn>
+      </v-layout>
     </v-footer>
   </v-app>
 </template>
 
-<script>
-export default {
-  data() {
-    return {
-      clipped: false,
-      drawer: false,
-      fixed: false,
-      miniVariant: false,
-      right: true,
-      rightDrawer: false,
-      title: 'Nisshii Portfolio'
-    }
-  }
+<style scoped>
+.hidden-sm-and-up {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
-</script>
+</style>
