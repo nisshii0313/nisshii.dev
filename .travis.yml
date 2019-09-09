@@ -1,0 +1,16 @@
+language: node_js
+node_js:
+  - "11.6.0"
+before_install:
+  - 'npm i -g eslint'
+  - 'npm i -g eslint-plugin-promise'
+script:
+  - 'npm run build'
+  - 'npm run test'
+  - 'npm run lint'
+  - 'npm run generate'
+deploy:
+  provider: firebase
+  skip_cleanup: true
+  token:
+    secure: "Je4Et6plUMcBudXPGW5oFP8sASKweD9G59FX1v0uUiGbxAoH8nY5tc2VSMCYGW8t11RTqWYVWsHj8Zt2MVWpsz+ac9nPLZ4HMA4rrYnuYMzmsleDmm0SO3eH9c6qdvZ0sebOAqckrodAgWbRaOur5QPxVp/olngURCEnRmy/7PRZqkk+NtWIPid89BMO2+joPdvNSprAqkuWt3bWb16o16kA1f2KtWZIwh7OiyPiYWHsxB+CVO4iRtIZcxDKRbLiLB3sCSiWGuN6tzYVKmrwbFvy1ybWqPnLUNwqcuniIZV8/N9z6cA3mArOHKyZ01iS0tbazPtkfSUCDr7OuJihau3MwskHCeaFEzPvQ+WyZAVRYJTZTEegGXhu+eE9kSMUL8GJB95yJGBMU6jN3qm1K08iXeNccbemxG1RpbcGs0JO3Dx+nyaKX7ucdjVoJpqCbXzlfnW2FFyOZBpJHPSE9UEXqbBIkufXFgBlRu+5vqotByIfIpEV5kV1Xa4ANwKJPOOhUROakrwFgApd+u3mfSqyTbrXOMmNc+wxFUqfzbn79wkzt7gawe8f845lP3QQ9loVcru0Jxm2ibl459qgVZGfZWWlFc0KyQVJtP4PqdIffza8K8uRmuFV62YgbQ+KkIrQunXWusS4iyFPNs/DB9KIdn/0o5yoocd+klOe3fE="
