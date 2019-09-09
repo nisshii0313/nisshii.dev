@@ -1,4 +1,4 @@
-# my-portfolio
+# my-portfolio [![Build Status](https://travis-ci.org/nisshii0313/nisshii.dev.svg?branch=master)](https://travis-ci.org/nisshii0313/nisshii.dev)
 
 > My neat Nuxt.js project
 
