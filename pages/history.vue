@@ -37,6 +37,19 @@
             <p>
               2018/11~<br>合同会社DMM.comのCTOのアシスタント
             </p>
+            <p>
+              2019/7~2019/8<br>株式会社ミクシィでサマーインターン<br>
+              詳細は
+              <a href="https://t.co/qckswMYSzt?amp=1">
+                こちら
+              </a>
+            </p>
+            <p>
+              2019/8<br>サイボウズ株式会社でサマーインターン
+            </p>
+            <p>
+              現在<br>引き続き合同会社DMM.comのCTOのアシスタントをやっています
+            </p>
             <div class="text-xs-right">
               <em><small>&mdash; My History</small></em>
             </div>
