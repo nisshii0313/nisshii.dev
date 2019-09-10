@@ -5,10 +5,10 @@ before_install:
   - 'npm i -g eslint'
   - 'npm i -g eslint-plugin-promise'
 script:
-  - 'npm run build'
-  - 'npm run test'
-  - 'npm run lint'
-  - 'npm run generate'
+  - 'yarn install'
+  - 'yarn run build'
+  - 'yarn run lint'
+  - 'yarn run generate'
 deploy:
   provider: firebase
   skip_cleanup: true
