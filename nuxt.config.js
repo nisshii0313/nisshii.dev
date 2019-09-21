@@ -1,4 +1,3 @@
-import VuetifyLoaderPlugin from 'vuetify-loader/lib/plugin'
 import pkg from './package'
 
 export default {
@@ -34,7 +33,7 @@ export default {
   ** Global CSS
   */
   css: [
-    '~/assets/style/app.styl',
+    '@/assets/css/style.css',
     '@fortawesome/fontawesome-free-webfonts/css/fa-brands.css',
     '@fortawesome/fontawesome-free-webfonts/css/fontawesome.css'
   ],
@@ -56,6 +55,8 @@ export default {
     '@nuxtjs/component-cache'
   ],
 
+  buildModules: ['@nuxtjs/vuetify'],
+
   manifest: {
     name: "Nisshii's Portfolio",
     lang: 'ja'
@@ -73,12 +74,6 @@ export default {
   */
   build: {
     transpile: ['vuetify/lib'],
-    plugins: [new VuetifyLoaderPlugin()],
-    loaders: {
-      stylus: {
-        import: ['~assets/style/variables.styl']
-      }
-    },
     /*
     ** You can extend webpack config here
     */

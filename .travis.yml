@@ -5,9 +5,10 @@ before_install:
   - 'npm i -g eslint'
   - 'npm i -g eslint-plugin-promise'
 script:
-  - 'npm run build'
+  - 'yarn install'
+  - 'yarn run build'
   - 'npm run test'
-  - 'npm run lint'
+  - 'yarn run lint'
   - 'npm run generate'
 deploy:
   provider: firebase
