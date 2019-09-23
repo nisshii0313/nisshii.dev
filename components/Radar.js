@@ -7,7 +7,7 @@ export default {
       labels: ['JS framework(React/Vue)', 'Elixir', 'Ruby', 'Golang', 'Kotlin', 'Scala'],
       datasets: [
         {
-          label: 'Programming language',
+          label: 'Programming language skills',
           backgroundColor: 'rgba(179,181,198,0.2)',
           borderColor: 'rgba(179,181,198,1)',
           pointBackgroundColor: 'rgba(179,181,198,1)',
