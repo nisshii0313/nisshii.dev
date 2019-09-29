@@ -29,4 +29,4 @@ jobs:
         npm  run generate
     - name: deploy to Firebase Hosting
       run: |
-        firebase deploy --token=${{ secrets.Deploy_Key }}
+        ./node_modules/.bin/firebase deploy --token=${{ secrets.Deploy_Key }}
