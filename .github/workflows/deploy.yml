@@ -24,7 +24,6 @@ jobs:
       run: |
         yarn install
         yarn run build
-        yarn run test
         yarn run lint
         npm  run generate
     - name: deploy to Firebase Hosting
