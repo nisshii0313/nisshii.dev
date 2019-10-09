@@ -25,7 +25,9 @@
     </v-app-bar>
     <v-content>
       <v-container color="new-dark-theme" dark>
-        <nuxt />
+        <v-flex xs12 sm12 md12>
+          <nuxt class="contents" />
+        </v-flex>
       </v-container>
     </v-content>
     <v-footer class="hidden-sm-and-up" position="fixed" bottom="0" color="new-dark-theme" dark>
@@ -75,5 +77,11 @@ export default {
   position: fixed;
   bottom: 0;
   width: 100%;
+}
+
+.contents {
+  margin-left: 0px;
+  margin-right: 0px;
+  max-width: 100%;
 }
 </style>
