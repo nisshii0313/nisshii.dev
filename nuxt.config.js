@@ -35,7 +35,8 @@ export default {
   css: [
     '@/assets/css/style.css',
     '@fortawesome/fontawesome-free-webfonts/css/fa-brands.css',
-    '@fortawesome/fontawesome-free-webfonts/css/fontawesome.css'
+    '@fortawesome/fontawesome-free-webfonts/css/fontawesome.css',
+    '~/assets/css/style.css'
   ],
 
   /*
