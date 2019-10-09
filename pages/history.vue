@@ -9,7 +9,7 @@
         <v-card-title>経歴</v-card-title>
         <v-card-text>(中長期の就業型インターンシップは含めていますが、短期(1日)やハッカソンは含めていません)</v-card-text>
       </v-card>
-      <v-timeline>
+      <v-timeline class="ura">
         <v-timeline-item small>
           <template v-slot:opposite>
             <span>2017/3</span>
@@ -160,3 +160,9 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+.ura {
+  z-index: 0;
+}
+</style>
