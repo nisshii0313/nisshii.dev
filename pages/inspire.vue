@@ -20,7 +20,7 @@
               class="pa-2"
               outlined
               tile
-              :elevation="9"
+              elevation="9"
             >
               <v-card-title
                 class="fill-height align-end"
