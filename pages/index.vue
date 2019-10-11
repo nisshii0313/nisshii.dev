@@ -21,6 +21,9 @@
             <v-btn icon href="https://github.com/nisshii0313" aria-label="Github">
               <i class="fab fa-github" fa-10x />
             </v-btn>
+            <v-btn icon href="https://nisshii18.hatenablog.com/" aria-label="Blog">
+              <i class="fab fa-blogger-b" fa-10x />
+            </v-btn>
           </p>
           <p>
             所属<br>東京理科大学理学部1部数学科3年
