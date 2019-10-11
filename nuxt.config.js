@@ -16,7 +16,7 @@ export default {
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       {
-        rel: 'stylesheet',
+        rel: 'preload',
         href:
           'https://fonts.googleapis.com/css?family=Roboto&font-display=swap:300,400,500,700|Material+Icons'
       },
@@ -32,12 +32,6 @@ export default {
   /*
   ** Global CSS
   */
-  css: [
-    '@/assets/css/style.css',
-    '@fortawesome/fontawesome-free-webfonts/css/fa-brands.css',
-    '@fortawesome/fontawesome-free-webfonts/css/fontawesome.css',
-    '~/assets/css/style.css'
-  ],
 
   /*
   ** Plugins to load before mounting the App
