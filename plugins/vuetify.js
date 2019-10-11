@@ -3,8 +3,13 @@ import '@fortawesome/fontawesome-free/css/fontawesome.css'
 import Vue from 'vue'
 import Vuetify from 'vuetify/lib'
 import colors from 'vuetify/es5/util/colors'
+import { dom, library } from '@fortawesome/fontawesome-svg-core'
+import { faTwitter, faFacebook, faGithub, faBloggerB } from '@fortawesome/free-brands-svg-icons'
 
 Vue.use(Vuetify)
+
+library.add(faTwitter, faFacebook, faGithub, faBloggerB)
+dom.i2svg()
 
 export default new Vuetify({
   theme: {

@@ -22,7 +22,7 @@
               <i class="fab fa-github" fa-10x />
             </v-btn>
             <v-btn icon href="https://nisshii18.hatenablog.com/" aria-label="Blog">
-              <i class="fas fa-blog" fa-10x />
+              <i class="fab fa-blogger-b" fa-10x />
             </v-btn>
           </p>
           <p>
