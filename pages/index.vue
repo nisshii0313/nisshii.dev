@@ -49,6 +49,11 @@
 <script>
 import Vue from 'vue'
 import Vue2TouchEvents from 'vue2-touch-events'
+import { dom, library } from '@fortawesome/fontawesome-svg-core'
+import { faTwitter, faFacebook, faGithub, faBloggerB } from '@fortawesome/free-brands-svg-icons'
+
+library.add(faTwitter, faFacebook, faGithub, faBloggerB)
+dom.i2svg()
 
 Vue.use(Vue2TouchEvents)
 
