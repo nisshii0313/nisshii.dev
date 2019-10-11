@@ -53,7 +53,7 @@ import { dom, library } from '@fortawesome/fontawesome-svg-core'
 import { faTwitter, faFacebook, faGithub, faBloggerB } from '@fortawesome/free-brands-svg-icons'
 
 library.add(faTwitter, faFacebook, faGithub, faBloggerB)
-dom.i2svg()
+dom.watch();
 
 Vue.use(Vue2TouchEvents)
 
