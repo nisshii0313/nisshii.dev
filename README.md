@@ -1,6 +1,6 @@
 # my-portfolio [![Build Status](https://travis-ci.org/nisshii0313/nisshii.dev.svg?branch=master)](https://travis-ci.org/nisshii0313/nisshii.dev) ![](https://github.com/nisshii0313/nisshii.dev/workflows/Deploy/badge.svg)
 
-> My neat Nuxt.js project
+> https://nisshii.dev
 
 ## Build Setup
 
