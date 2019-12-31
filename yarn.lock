@@ -3687,7 +3687,7 @@ esm@^3.2.25:
   version "3.2.25"
   resolved "https://registry.yarnpkg.com/esm/-/esm-3.2.25.tgz#342c18c29d56157688ba5ce31f8431fbb795cc10"
 
-espree@^5.0.0, espree@^5.0.1:
+espree@^5.0.0:
   version "5.0.1"
   resolved "https://registry.yarnpkg.com/espree/-/espree-5.0.1.tgz#5d6526fa4fc7f0788a5cf75b15f30323e2f81f7a"
   dependencies:
@@ -9213,9 +9213,9 @@ vue-touch@2.0.0-beta.4:
     rollup-plugin-commonjs "^7.0.0"
     rollup-plugin-node-resolve "^2.0.0"
 
-vue2-touch-events@2.0.1:
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/vue2-touch-events/-/vue2-touch-events-2.0.1.tgz#0caf2c7d5455675a391dc4c39d76c67d55f25011"
+vue2-touch-events@2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/vue2-touch-events/-/vue2-touch-events-2.1.0.tgz#3d53e922ab1e65c5a6dcbc977c70f1fea368e821"
 
 vue@^2.6.10:
   version "2.6.10"
