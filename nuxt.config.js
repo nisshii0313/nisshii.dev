@@ -1,3 +1,6 @@
+import path from 'path'
+import PurgecssPlugin from 'purgecss-webpack-plugin'
+import glob from 'glob-all'
 import pkg from './package'
 
 export default {
@@ -75,7 +78,7 @@ export default {
     /*
     ** You can extend webpack config here
     */
-    extend(config, ctx) {
+    extend (config, ctx) {
       // Run ESLint on save
       if (ctx.isDev && ctx.isClient) {
         config.module.rules.push({
@@ -84,6 +87,16 @@ export default {
           loader: 'eslint-loader',
           exclude: /(node_modules)/
         })
+        config.plugins.push(
+          new PurgecssPlugin({
+            paths: glob.sync([
+              path.join(__dirname, './pages/**/*.vue'),
+              path.join(__dirname, './layouts/**/*.vue'),
+              path.join(__dirname, './components/**/*.vue')
+            ]),
+            whitelist: ['html', 'body']
+          })
+        )
       }
     }
   }
