@@ -5,7 +5,9 @@
         "startServerCommand": "npm run start",
         "url": [
           "http://localhost:3000/",
-          "http://localhost:3000/about"
+          "http://localhost:3000/skills/",
+          "http://localhost:3000/history/",
+          "http://localhost:3000/inspire/"
         ]
       },
       "assert": {
