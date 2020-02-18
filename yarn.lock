@@ -9523,10 +9523,10 @@ vuetify-loader@1.4.3, vuetify-loader@^1.4.3:
   dependencies:
     loader-utils "^1.2.0"
 
-vuetify@2.2.0:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/vuetify/-/vuetify-2.2.0.tgz#f3c662bf7d73f2e795e552953d5c9138060e4cc4"
-  integrity sha512-yDs+brIA9oDuXWn+DNURkW3K3KSI7tcKUFJSvynLASXeHmTEdUUXJWnwcH4GdpjTIXQ2j8AbZXA0btqtBdz+jQ==
+vuetify@2.2.13:
+  version "2.2.13"
+  resolved "https://registry.yarnpkg.com/vuetify/-/vuetify-2.2.13.tgz#099c00d21373626a41a2847ba2f5d50dff16f98f"
+  integrity sha512-wzJmsyySCNdI/CJNTRbTwaPYJO0sAehUSW1R8GaMHjm9z4j2dK5bBrTv4aiG+n1K7Qc9RoYffzJZn0DSLAkSQw==
 
 vuetify@^2.1.13:
   version "2.1.15"
