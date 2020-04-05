@@ -48,7 +48,7 @@
     "eslint-plugin-promise": "4.2.1",
     "eslint-plugin-standard": "4.0.1",
     "nodemon": "2.0.2",
-    "eslint-plugin-vue": "6.2.1",
+    "eslint-plugin-vue": "6.2.2",
     "stylus": "0.54.7",
     "stylus-loader": "3.0.2",
     "purgecss-webpack-plugin": "2.1.0",
