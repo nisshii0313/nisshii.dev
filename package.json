@@ -52,6 +52,6 @@
     "stylus": "0.54.7",
     "stylus-loader": "3.0.2",
     "purgecss-webpack-plugin": "2.1.0",
-    "glob-all": "3.1.0"
+    "glob-all": "3.2.1"
   }
 }
