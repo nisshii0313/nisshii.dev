@@ -47,7 +47,7 @@
     "eslint-plugin-nuxt": "0.5.1",
     "eslint-plugin-promise": "4.2.1",
     "eslint-plugin-standard": "4.0.1",
-    "nodemon": "2.0.2",
+    "nodemon": "2.0.3",
     "eslint-plugin-vue": "6.2.1",
     "stylus": "0.54.7",
     "stylus-loader": "3.0.2",
